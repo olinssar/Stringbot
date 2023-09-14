@@ -48,7 +48,7 @@ buttons_ques = [
         InlineKeyboardButton("ᴛᴇʟᴇᴛʜᴏɴ ʙᴏᴛ", callback_data="telethon_bot"),
     ],
     [
-        InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴏғ ʀᴇᴘᴏ", url="https://github.com/TeamSukun/StringGenBot-1"),
+        InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴏғ ʀᴇᴘᴏ", url="https://t.me/NNINB"),
     ],
 ]
 
