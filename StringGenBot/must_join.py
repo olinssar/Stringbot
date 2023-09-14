@@ -25,7 +25,7 @@ async def must_join_channel(bot: Client, msg: Message):
                         [
                             [
                                 InlineKeyboardButton("</> ᴛᴇᴀᴍ sᴜᴋᴜɴ", url=link),
-                                InlineKeyboardButton("</> sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/sukunsupports"),
+                                InlineKeyboardButton("</> sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/NNINB"),
                             ]
                         ]
                     )
