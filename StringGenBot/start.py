@@ -20,8 +20,8 @@ Tʜɪs ɪs {me2},
 𖢵 Aɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ!
 
 ┏━━━━━━━━━━━━━━━━━
-┠ ๏ Uᴘᴅᴀᴛᴇꜱ :- @sukunupdates
-┠ ๏ Sᴜᴘᴘᴏʀᴛ :- @sukunsupports
+┠ ๏ Uᴘᴅᴀᴛᴇꜱ :- @NNINB
+┠ ๏ Sᴜᴘᴘᴏʀᴛ :- @NKINB
 ┗━━━━━━━━━━━━━━━━━
 """,
         reply_markup=InlineKeyboardMarkup(
@@ -30,11 +30,11 @@ Tʜɪs ɪs {me2},
                     InlineKeyboardButton(text="🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("❣️ ᴛᴇᴀᴍ sᴜᴋᴜɴ ❣️", url="https://t.me/TeamSukun"),
+                    InlineKeyboardButton("❣️ ᴛᴇᴀᴍ sᴜᴋᴜɴ ❣️", url="https://t.me/NNINB"),
                     InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=OWNER_ID)
                 ],
                 [
-                    InlineKeyboardButton("ᴀᴅᴅ ѕυкυη χ мυѕι¢", url="https://t.me/sukunmusicrobot?startgroup=new")
+                    InlineKeyboardButton("ᴀᴅᴅ ѕυкυη χ мυѕι¢", url="https://t.me/BtZkBot?startgroup=new")
                 ]
             ]
         ),
