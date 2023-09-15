@@ -10,4 +10,4 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 OWNER_ID = int(getenv("OWNER_ID", "5422153027"))
 
 MONGO_DB_URI = getenv("MONGO_DB_URI")
-MUST_JOIN = getenv("MUST_JOIN", "TeamSukun")
+MUST_JOIN = getenv("MUST_JOIN", "NNINB")
