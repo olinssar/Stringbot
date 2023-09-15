@@ -12,29 +12,25 @@ async def start(bot: Client, msg: Message):
     me2 = (await bot.get_me()).mention
     await bot.send_message(
         chat_id=msg.chat.id,
-        text=f"""Hᴇʏ {msg.from_user.mention},
-Tʜɪs ɪs {me2},
-ᴇʟʟᴏ ʙᴀʙʏ 😻,
-             🙈  ᴍᴇᴏᴡ ᴍᴇᴏᴡ ❤️
+        text=f"""≭︰مرحبا بك صديقي {msg.from_user.mention},
+≭︰انا بوت {me2},
+≭︰بوت جديد يقوم باستخراج الجلسات
+≭︰حدد نوع جلستك من الخيارات اسفل
+≭︰البوت الاول من حيث الامان والاصدار
 
-𖢵 Aɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ!
-
-┏━━━━━━━━━━━━━━━━━
-┠ ๏ Uᴘᴅᴀᴛᴇꜱ :- @NNINB
-┠ ๏ Sᴜᴘᴘᴏʀᴛ :- @NKINB
-┗━━━━━━━━━━━━━━━━━
+≭︰Sᴜᴘᴘᴏʀᴛ :- @NKINB
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")
+                    InlineKeyboardButton(text="• بدء استخراج الجلسة", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("❣️ ᴛᴇᴀᴍ sᴜᴋᴜɴ ❣️", url="https://t.me/NNINB"),
-                    InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=OWNER_ID)
+                    InlineKeyboardButton("• قناة التحديثات ⎙", url="https://t.me/NNINB"),
+                    InlineKeyboardButton("• المطور 🛠", user_id=OWNER_ID)
                 ],
                 [
-                    InlineKeyboardButton("ᴀᴅᴅ ѕυкυη χ мυѕι¢", url="https://t.me/BtZkBot?startgroup=new")
+                    InlineKeyboardButton("• اضافة الى المجموعة", url="https://t.me/BtZkBot?startgroup=new")
                 ]
             ]
         ),
