@@ -2,7 +2,7 @@
 Generate String Session Using this bot. Modified by @NNINB
 
 <p align="center">
-  <img src="https://alikindi.online/quranjpg/nizk.jpg" alt="StringGen">
+  <img src="https://kindidev.com/live/photo_nizk.jpg" alt="StringGen">
 </p>
 
 ### 🤤 ғᴇᴀᴛᴜʀᴇs
