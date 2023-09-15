@@ -13,17 +13,16 @@ async def start(bot: Client, msg: Message):
     await bot.send_message(
         chat_id=msg.chat.id,
         text=f"""≭︰مرحبا بك صديقي {msg.from_user.mention},
-≭︰انا بوت {me2},
+≭︰انا بوت {me2},\n
 ≭︰بوت جديد يقوم باستخراج الجلسات
 ≭︰حدد نوع جلستك من الخيارات اسفل
-≭︰البوت الاول من حيث الامان والاصدار
-
+≭︰البوت الاول من حيث الامان والاصدار \n
 ≭︰Sᴜᴘᴘᴏʀᴛ :- @NKINB
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="• بدء استخراج الجلسة", callback_data="generate")
+                    InlineKeyboardButton(text="• بدء استخراج", callback_data="generate")
                 ],
                 [
                     InlineKeyboardButton("• قناة التحديثات ⎙", url="https://t.me/NNINB"),
